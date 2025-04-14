@@ -1,29 +1,41 @@
 # Portfolio
 
-## What am I looking at?
+## 📌 Overview
 
-- This portfolio consists of C,C++,and Python projects that display my understanding of low-level coding concepts like memory management, and multi-threading, as well as more abstract and higher-level concepts like algorithms and complex data structures. I have chosen a select few projects to portray my understanding of each, starting with Snake, Inklings, which show memory management usage and multi-threading respectively. Next, I have included the projects convex hull, image seam carving, and compression, which shows my ability to split a large problem into a series of tiney ones, better known as the recurrence relation. I will list the projects in order and explain how to compile them, with the C files compling with make and python/c++ files being compiled in the cli.
+This portfolio consists of C, C++, and Python projects that showcase my understanding of:
 
+- Low-level coding concepts: memory management, pointer arithmetic, and multi-threading.
+- Higher-level concepts: algorithms, problem decomposition, and complex data structures.
 
-## Snake
+I’ve selected a few key projects to highlight these concepts:
 
-Short Overview:
-- Snake is a fully functional recreation of the orginal snake game. Created in C, the snake and it's customizable board(RLE encoding), are made and manipulated using dynamically allocated memory through malloc functions. Snake movement and board updates all occur on the same block of allocated memory, with the snake using pointer arithmetic to traverse over the board. To avoid memory leaks, double frees, and use after frees, there are a number of edge cases that require complex monitoring of the allocated memory. One such example is freeing memory upon a new snake-tail colliding with a wall after the snake has consumed an apple. The issue here is that if the new tail becomes linked to the linked-list representing the snake, our future free call at the conclusion of our program will result in a double free.
+1. **Snake** – Demonstrates memory management in C.
+2. **Inklings** – A multi-threaded simulation using mutexes.
+3. **Convex Hull**, **Image Seam Carving**, and **Compression** – Show my ability to decompose complex problems into recursive subproblems.
 
-Skills Shown:
-- My understanding of memory leaks, double frees, and use after frees, and how to avoid them through memory management.
+Each project includes a short overview, the skills demonstrated, and clear compilation instructions.
 
-Compilation Instructions:
-- Download files and use the command, "make" to compile all files into the snake executable.
+---
 
+## 🐍 Snake
 
-## Inklings
+### 🔹 Overview
 
-Short Overview:
-- Inklings is a multi-threaded C application where threads are represented as inklings moving on a grid. Each inkling has a potential color of red, green, or blue, with each color having a limited resource tank. With multiple inklings of the same color, the threads/inklings are vying for the same resource, meaning I had to implement thread synchronization with the use of mutexes. This was a complex task where the mutexes had to be used in a large number of contexes, without being able to ever overlap, in order to avoid dead locks.
+**Snake** is a fully functional recreation of the classic Snake game, written in C. It features:
 
-Skills Shown:
-- Resource management and thread synchronization.
+- A customizable board using RLE encoding.
+- Dynamic memory allocation and pointer arithmetic for game state updates.
+- Robust memory management to avoid leaks, double frees, and use-after-free errors.
 
-Compilation Instructions:
-- Use the command, "make".
+For example, one edge case handled is freeing the snake's tail memory correctly after an apple is consumed, ensuring the linked list isn't corrupted.
+
+### 🔹 Skills Demonstrated
+
+- Dynamic memory allocation (`malloc`, `free`)
+- Edge case handling
+- Debugging memory leaks and segmentation faults
+
+### 🔹 How to Compile
+
+```bash
+make
