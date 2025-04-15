@@ -39,6 +39,7 @@ For example, one edge case handled is freeing the snake's tail memory correctly 
 
 ```bash
 make
+```
 
 ## 🎨 Inklings
 
@@ -65,4 +66,4 @@ To compile the project, use:
 
 ```bash
 make
-
+```
