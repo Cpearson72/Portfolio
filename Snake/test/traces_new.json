@@ -1,0 +1,75 @@
+{
+  "test001": {
+    "description": "Snake bot finds food. This is the simple test, we want to see if it will find the food without running into a wall. The likelyhood of it not running into wall when just using random directions is low.",
+    "seed": "2",
+    "snake_grows": "0",
+    "key_input": "",
+    "output": {
+      "game_over": 0,
+      "score": 1,
+      "width": 20,
+      "height": 10,
+      "cells": [
+        "XXXXXXXXXXXXXXXXXXXX",
+        "X..................X",
+        "X..................X",
+        "X..................X",
+        "X.........S........X",
+        "X..................X",
+        "X..................X",
+        "X..................X",
+        "X..............O...X",
+        "XXXXXXXXXXXXXXXXXXXX"
+      ]
+    }
+  },
+  "test002": {
+    "description": "Snake bot will grow multiple times. This ensures the snake bot is able to avoid both walls and its own body, proving its navigation skills.",
+    "seed": "2",
+    "snake_grows": "1",
+    "key_input": "",
+    "output": {
+      "game_over": 0,
+      "score": 5,
+      "width": 20,
+      "height": 10,
+      "cells": [
+        "XXXXXXXXXXXXXXXXXXXX",
+        "X..................X",
+        "X..................X",
+        "X...SSSSSS.......O.X",
+        "X..................X",
+        "X..................X",
+        "X..................X",
+        "X..................X",
+        "X..................X",
+        "XXXXXXXXXXXXXXXXXXXX"
+      ]
+    }
+  },
+  "test003": {
+    "description": "Snake bot will run 100 times, covering the edge case of when the snake head gets stuck on the wall since going towards wall may be closer to food but not allowed, resulting in infinite loop of backing up and going back to the wall",
+    "seed": "2",
+    "snake_grows": "0",
+    "key_input": "NNNN",
+    "output": {
+      "game_over": 0,
+      "score": 100,
+      "width": 20,
+      "height": 10,
+      "cells": [
+        "XXXXXXXXXXXXXXXXXXXX",
+        "X................O.X",
+        "X..................X",
+        "X..................X",
+        "X......S...........X",
+        "X..................X",
+        "X..................X",
+        "X..................X",
+        "X..................X",
+        "XXXXXXXXXXXXXXXXXXXX"
+      ]
+    }
+  }
+}
+

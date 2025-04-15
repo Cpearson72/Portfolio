@@ -1,0 +1,11 @@
+# Part 1: Read A5 & Identify Two Difficult Parts
+
+- Memory management of the snake. I would like to set the snake to an int pointer that points to a specific cell on the board, however, this would be complicated to manage in the case of end game scenarios. I am unsure how I could manage to ensure the snake does not leap out of bounds. I am assuming I need to manage the arithmetic of the cells, yet I need to reserach more into the assignment to get this.
+
+- Using the linked list to grow the snake. I am unsure how I will manage both the memory of the snake head along with the memory of its body. How will I manage to ensure the snake body turns in the same cell as the snake head? How will I manage multiple states of the cells?
+
+# Part 2: Two real world analogies of dynamic memory allocation
+
+- Buffet. When ordering food from a buffet, you allocate a plate(memory), that can store a limited amount of food adjusting to the size of that plate(data). You can add whatever food you would like, however, when you go over the size limit of the plate, most of the food falls off in a big slop onto the ground. Because the food fell off, a bunch of roaches started to seep out of the food, making you puke all over the floor. The people closest to you with reserved plates of their own(close memory addresses), also begin to puke because of your puke. The whole buffet is then shut down by the FDA(program crash). Source(kind of): Chat GPT
+
+- Reserving a room at the library. You need to meet with your group at the library, so you reserve a room(memory). The group can do whatever they would like in the room outside of two simple rules. 1. They can not break down the walls of the room as it is connected to other study rooms. 2. They can not overstay their welcome. If they break down the walls of the room, the police are called(OS doing a program crash), and they are all arrested. If they overstay their welcome, then slowly the rooms will all begin to fill up, until their is an abundant line for rooms that lasts forever. Because of this, the librarian calls security and they have to shut down the library and examine how long each room has been reserved(crash).
