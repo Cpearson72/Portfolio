@@ -1,0 +1,12 @@
+---
+:id: 319110034
+:submitters:
+- :name: Conor M
+  :email: conor_pearson@uri.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2025-03-21 23:49:59.407336000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2025-03-21 16:49:59.407336000 Z
+:status: processed
+:score: 96.08
