@@ -39,3 +39,30 @@ For example, one edge case handled is freeing the snake's tail memory correctly 
 
 ```bash
 make
+
+## 🎨 Inklings
+
+### 🔹 Overview
+
+**Inklings** is a multi-threaded C application that simulates autonomous agents—called "inklings"—moving on a grid. Each inkling:
+
+- Is assigned a color: **Red**, **Green**, or **Blue**
+- Competes for a shared, limited resource of their respective color
+- Operates concurrently with other inklings via **POSIX threads**
+
+Thread synchronization was the primary challenge. Since multiple threads (inklings) attempt to access the same color resource pool, I implemented mutex locks to manage access. Careful design was needed to prevent race conditions and **deadlocks**, especially as mutex usage grew more complex.
+
+### 🔹 Skills Demonstrated
+
+- Thread creation using `pthread`
+- Mutex-based synchronization for shared resource management
+- Deadlock avoidance and thread-safe programming
+- Debugging concurrency issues in a multi-threaded environment
+
+### 🔹 How to Compile
+
+To compile the project, use:
+
+```bash
+make
+
