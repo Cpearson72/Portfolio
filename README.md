@@ -65,7 +65,7 @@ Thread synchronization was the primary challenge. Since multiple threads (inklin
 To compile the project, use:
 
 ```bash
-make
+./unit_test.sh
 ```
 
 #TO BE FINISHED SOON!!
