@@ -1,3 +1,0 @@
-C:/Users/pears/CLionProjects/lab-08/cmake-build-debug/CMakeFiles/lab_08.dir
-C:/Users/pears/CLionProjects/lab-08/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/pears/CLionProjects/lab-08/cmake-build-debug/CMakeFiles/rebuild_cache.dir
