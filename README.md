@@ -38,7 +38,7 @@ For example, one edge case handled is freeing the snake's tail memory correctly 
 ### 🔹 How to Compile
 
 ```bash
-make snake
+./unit_test.sh
 ```
 
 ## 🎨 Inklings
