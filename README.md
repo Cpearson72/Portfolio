@@ -78,7 +78,7 @@ Each project includes a short overview, the skills demonstrated, and clear compi
 
 ### 🔹 How to Compile
 ```bash
-gcc -o shell shell.c
+./412_shell
 ```
 
 ---
