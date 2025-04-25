@@ -1,0 +1,23 @@
+#25 pixels
+Elapsed time: 0.0000 seconds
+
+#49 pixels
+Elapsed time: 0.0061 seconds
+
+#64
+Elapsed time: 0.0111 seconds
+
+#72
+Elapsed time: 0.0150 seconds
+
+#100
+Elapsed time: 0.1399 seconds
+
+#121
+Elapsed time: 0.4242 seconds
+
+#169
+Elapsed time: 4.8588 seconds
+
+#225
+Elapsed time: 48.9450 seconds

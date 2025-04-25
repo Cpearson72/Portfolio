@@ -1,0 +1,20 @@
+#1100
+Elapsed time: 0.0058 seconds
+
+#1665
+Elapsed time: 0.0066 seconds
+
+#40,000
+Elapsed time: 0.2471 seconds
+
+#80,000
+Elapsed time: 0.5647 seconds
+
+#160,000
+Elapsed time: 1.2035 seconds
+
+#640,000
+Elapsed time: 6.2750 seconds
+
+#100,000
+recursion depth reached
