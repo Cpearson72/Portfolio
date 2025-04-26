@@ -1,5 +1,9 @@
 # Portfolio
 
+## Who Am I?
+
+A 22 year-old student of tech who fell in love with low-level computer architecture throughout my Bachelor of Science undergrad in CS. Computers, to me, are complex and misunderstood puzzles that carry infinite solutions to complex problems like health-care, automotive saftey, complex data analysis, while also providing means of entertainment through art desing softwares, music recording software, and video games. Computers are almost begging us to create complex solutions to problemss that require near speed of light calculations to complete in a reasonbale time, and I would argue this has been humanities greatest gift, a gift I am going to use.
+
 ## 📌 Overview
 
 This portfolio consists of C, C++, and Python projects that showcase my understanding of:
@@ -83,10 +87,10 @@ make check
 ## ⚖️ Shell
 
 ### 🔹 Overview
-**Shell** is a minimalistic custom shell interpreter written in C. It supports:
+**Shell** is a minimalistic custom shell interpreter written in C and C++. It supports:
 
 - Running basic UNIX commands
-- Built-in command handling for `cd`, `exit`, etc.
+- Built-in command handling for `tee`, `pwd`, `head`, `tail`, and `wc`
 - Simple piping and redirection
 
 ### 🔹 Skills Demonstrated
@@ -104,38 +108,39 @@ make check
 ## 🧰 Data Structures
 
 ### 🌳 Binary Search Tree
-- Implementation of insertion, deletion, search, and in-order traversal
-- Memory-managed pointer-based tree
-- Balanced and unbalanced operations shown
+- Implementation of insertion, deletion, destory, search, and preorder, inorder, postorder traversel.
+- Heap allocated nodes
+- Node and tree classes with public and private members. Communicate by being friend classes.
 
 **Image Example:**
 ![BST Example](images/bst_example.png)
 
 ### 🔹 Skills Demonstrated
 - Recursive data structure manipulation
-- Memory management in trees
+- Memory management of nodes and tree structures
 
 ---
 
 ### 🔑 Hash Table
-- Custom hash function
-- Collision resolution via chaining
+- Hash table construction with clash
+- Collision resolution via chaining, linear probing, and double hashing.
 - Resizing logic for dynamic loads
+- Handles 1d and 2d hashing tables.
 
 **Image Example:**
 ![Hash Table Example](images/hash_table_example.png)
 
 ### 🔹 Skills Demonstrated
-- Pointer arrays
+- Chaining, linear probing, double hashing.
 - Hashing algorithms
-- Linked lists for chaining
+- Dynamic table resizing.
 
 ---
 
 ### 🧵 Trie
 - Prefix tree for string search
-- Insert, search, and delete operations
-- Ideal for autocomplete features
+- Insert, search, delete operations, bool is_in, and descendent functions.
+- Ideal for highly efficient autocomplete features
 
 **Image Example:**
 ![Trie Example](images/trie_example.png)
@@ -150,7 +155,7 @@ make check
 ## ⚖️ Algorithms
 
 ### 🔸 Convex Hull (Divide and Conquer)
-- Implementation of Graham Scan
+- Triangles clockwise and counter-clockwise data manipulation to find outer edges.
 - Handles edge cases in sorting and orientation
 
 **Image Example:**
@@ -164,7 +169,7 @@ make check
 
 ### 🎨 Huffman Encoding
 - Lossless compression algorithm
-- Binary tree creation and traversal
+- Min heap manipulation
 - Character frequency analysis
 
 **Image Example:**
@@ -172,7 +177,6 @@ make check
 
 ### 🔹 Skills Demonstrated
 - Priority queues
-- Binary tree traversal
 - Bit manipulation
 
 ---
