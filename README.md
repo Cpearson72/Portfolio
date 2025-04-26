@@ -10,10 +10,11 @@ This portfolio consists of C, C++, and Python projects that showcase my understa
 I’ve selected a few key projects to highlight these concepts:
 
 1. **Snake** – Demonstrates memory management in C.
-2. **Inklings** – A multi-threaded simulation using mutexes.
-3. **Shell** – A custom shell implementation mimicking basic UNIX behavior.
-4. **Data Structures** (Folder): **Binary Search Tree**, **Hash Table**, and **Trie**.
-5. **Algorithms** (Folder): **Convex Hull**, **Huffman Encoding**, and **Image Seam Carving**.
+2. **Dynamic Memory Allocation and Leak Sanitzer** - Implementation of dynamic memory calls with advanced leak sanitzer.
+3. **Inklings** – A multi-threaded simulation using mutexes.
+4. **Shell** – A custom shell implementation mimicking basic UNIX behavior.
+5. **Data Structures** (Folder): **Binary Search Tree**, **Hash Table**, and **Trie**.
+6. **Algorithms** (Folder): **Convex Hull**, **Huffman Encoding**, and **Image Seam Carving**.
 
 Each project includes a short overview, the skills demonstrated, and clear compilation instructions.
 
@@ -39,6 +40,23 @@ Each project includes a short overview, the skills demonstrated, and clear compi
 ```
 
 ---
+
+## Dynamic Memory Allocation and Leak Sanitzer
+
+### 🔹 Overview
+Implemented malloc and free calls accompanied with advanced leak sanizter that can catch a number of errors like invalid free, use after free, not in heap, overflows, etc.
+
+### 🔹 Skills Demonstrated
+- Heap memory  management through construction and destruction of allocated blocks.
+- Catches memory safety issues that could have serious implications in case of segfaults and overflows.
+- Efficient use of C++ structures like unordered sets, leading to 500,000 malloc calls being ran in a few seconds or less.
+
+### 🔹 How to Compile
+
+Run the test suite, highlighted by 40 tests named test???.cc;
+```bash
+make check
+```
 
 ## 🎨 Inklings
 
