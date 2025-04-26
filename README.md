@@ -2,7 +2,8 @@
 
 ## Who Am I?
 
-A 22 year-old student of tech who fell in love with low-level computer architecture throughout my Bachelor of Science undergrad in CS. Computers, to me, are complex and misunderstood puzzles that carry infinite solutions to complex problems like health-care, automotive saftey, complex data analysis, while also providing means of entertainment through art desing softwares, music recording software, and video games. Computers are almost begging us to create complex solutions to problemss that require near speed of light calculations to complete in a reasonbale time, and I would argue this has been humanities greatest gift, a gift I am going to use.
+A 22-year-old student of technology who fell in love with low-level computer architecture during my Bachelor of Science undergraduate studies in Computer Science. To me, computers are complex and often misunderstood puzzles that offer infinite solutions to challenges in areas such as healthcare, automotive safety, and complex data analysis, while also providing entertainment through art design software, music recording tools, and video games. It feels as though computers are almost begging us to create intricate solutions to problems that demand near speed-of-light calculations to solve in a reasonable time. I would argue that this has been humanity’s greatest gift — a gift I am determined to use.
+
 
 ## 📌 Overview
 
